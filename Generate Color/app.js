@@ -4,7 +4,7 @@ const btn = document.querySelector('button');
 btn.addEventListener('click',function(){
     const makecolour = CreateColor();
     document.body.style.backgroundColor = makecolour;
-    h1.innerText = makecolour;
+    h3.innerText = makecolour;
     document.body.style.transition = "all 1s";
     btn.style.transition = "all 1s";
 
