@@ -1,5 +1,5 @@
 const btn = document.querySelector('button');
-
+const h3 = document.querySelector('h1');
 
 btn.addEventListener('click',function(){
     const makecolour = CreateColor();
