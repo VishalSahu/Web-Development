@@ -41,12 +41,19 @@ button{
     background-color: #F4344D;
     color:#F0F0EA;
 }
+
 li{
     font-family: 'Open Sans', sans-serif;
+    margin: 1.5rem 1rem;
+    padding: 1.5rem;
     color: #F4344D;
+    word-wrap: break-word;
     background-color: #1f2224;
 }
 
+b {
+    color: #BEC1C0;
+}
 footer {
     color: #BEC1C0;
     margin-top: 2rem;
