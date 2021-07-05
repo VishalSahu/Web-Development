@@ -36,6 +36,7 @@ input {
 }
 button{
     outline: none;
+    font-family: 'Montserrat', sans-serif;
     padding: 10px 10px;
     border: 1px solid #1f2224;
     background-color: #F4344D;
@@ -53,6 +54,7 @@ li{
 
 b {
     color: #BEC1C0;
+    font-weight: 400;
 }
 footer {
     color: #BEC1C0;
