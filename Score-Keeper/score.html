@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <title>Score Keeper</title>
+  </head>
+  <body>
+      <div class="container">
+          <div class="columns">
+              <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image ">
+                        <img src="game-mode.jpg" alt="">
+                    </div>
+                    <header class="card-header">
+                      <p class="card-header-title">Score Keeper</p>
+                      <button class="card-header-icon" aria-label="more options">
+                        <span class="icon">
+                          <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </header>
+                    <div class="card-content">
+                      <div class="content">
+                        <h1 class="is-size-1 title column"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                        <p class="subtitle is-size-6">Use the button bellow to keep the score</p>
+                        <label for="playTo" class="label is-inline">Playing to</label>
+                        <div class="select is-danger is-rounded is-small is-hovered">
+                            <select class="dropdown-content"  name="" id="playTo">
+                                <option class="" value="3">3</option>
+                                <option class="dropdown-items" value="4">4</option>
+                                <option class="dropdown-items" value="5">5</option>
+                                <option class="dropdown-items" value="10">10</option>
+                                <option class="dropdown-items" value="15">15</option>
+                                <option class="dropdown-items" value="20">20</option>
+                                <option class="dropdown-items" value="25">25</option>
+                          </select>
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+                    <footer class="card-footer">
+                        <button class="card-footer-item button is-link is-large" id="p1Button">Player 1</button>
+                        <button class="card-footer-item button is-warning is-large" id="p2Button">Player 2</button>
+                        <button class="card-footer-item button is-danger is-large" id="reset">Reset</button>
+                    </footer>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+    <script src="score.js"></script>
+  </body>
+</html>
